@@ -1,5 +1,5 @@
 import { describe, expect, test, beforeAll } from "bun:test";
-import sum from "../../dist";
+import sum from "../index";
 
 describe("function", () => {
   test("add", () => {
