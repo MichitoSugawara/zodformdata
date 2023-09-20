@@ -1,0 +1,18 @@
+{
+  "name": "bun-ts-package-template",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "bun run ./build.ts",
+    "test": "bun test",
+    "test:watch": "bun test --watch",
+    "test:update": "bun test --update-snapshots"
+  },
+  "devDependencies": {
+    "bun-plugin-dts": "^0.2.1",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
